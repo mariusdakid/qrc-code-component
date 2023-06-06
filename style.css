@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(214, 226, 240);
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    padding: 1rem;
+    width: 200px;
+    border-radius: 6px;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 0.5rem;
+    border-radius: 6px;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(123, 135, 157);
+    text-align: center;
+}
+
+h3{
+    font-weight: 700;
+    text-align: center;
+    color: rgb(31, 50, 81);
+}
+
+@media screen and(max-width: 768px){
+    .container{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        padding: 1rem;
+        width: 100%;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px;
+    }
+    
+}
+
+
+White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
